@@ -152,15 +152,15 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1676913988}
   m_Father: {fileID: 876708332}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -337, y: -125}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 313, y: -215}
   m_SizeDelta: {x: 411.62097, y: 83.79901}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &35908043
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1905.2, y: 600}
@@ -556,11 +556,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041A\u0432\u0435\u0441\u0442: \u0441\u0434\u0435\u043B\u0430\u0442\u044C
-    \u0442\u0430\u043A, \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u0438 \u0441\u043C\u0435\u043D\u0435
-    \u0440\u0430\u0437\u043C\u0435\u0440\u043E\u0432 \u044D\u043A\u0440\u0430\u043D\u0430,
-    \u0440\u0430\u0437\u043C\u0435\u0440 \u044D\u0442\u043E\u0439 \u043A\u043D\u043E\u043F\u043A\u0438
-    \u043D\u0435 \u043C\u0435\u043D\u044F\u043B\u0441\u044F"
+  m_text: "\u0431\u0435\u0431\u0435\u0440\u0430\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
