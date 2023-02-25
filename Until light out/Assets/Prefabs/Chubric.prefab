@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5456844595104422894}
   m_Layer: 0
-  m_Name: "\u0427\u0443\u0431\u0440\u0438\u043A"
+  m_Name: Chubric
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
