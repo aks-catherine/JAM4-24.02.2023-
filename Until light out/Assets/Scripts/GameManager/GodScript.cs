@@ -31,6 +31,8 @@ public class GodScript : MonoBehaviour
             _altar.huiOn();
             AlCount += 1;
         }
+        else if (AlCount > a)
+        { }
         else
         {
             Altar1.huiOff();
