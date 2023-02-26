@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController1 : MonoBehaviour
 {
+
     [SerializeField]
     private float speedRotation;
     [SerializeField]
@@ -13,6 +14,8 @@ public class PlayerController1 : MonoBehaviour
     private Vector3 _direction;
     private Vector3 lastDirection;
     private NewControls _input;
+    private Collider _Collider;
+    private AltarScript _altar;
     
     private void Awake()
     {
@@ -44,10 +47,26 @@ public class PlayerController1 : MonoBehaviour
             lastDirection = _direction;
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        _Collider = other;
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        _Collider = default;
+    }
 
     private void _Interaction()
     {
-        Debug.Log("¬«¿»ÃŒƒ≈…—“¬»≈");
+        if (_Collider != default)
+        {
+            if (_Collider.gameObject.tag == "Altar")
+            {
+                _altar = _Collider.GetComponent<AltarScript>();
+                _altar.activate();
+
+            };
+        };
     }
     private void FixedUpdate()
     {

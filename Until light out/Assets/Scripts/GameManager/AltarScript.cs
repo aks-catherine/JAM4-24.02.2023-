@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class AltarScript : MonoBehaviour
 {
-    [SerializeField]
-    GodScript Altar1;
-    [SerializeField]
-    GodScript Altar2;
-    [SerializeField]
-    GodScript Altar3;
-    [SerializeField]
-    GodScript Altar4;
-    // Start is called before the first frame update
+
     void Start()
     {
         
@@ -22,5 +14,9 @@ public class AltarScript : MonoBehaviour
     void Update()
     {
         
+    }
+    public void activate()
+    {
+        Debug.Log("ÂÇÀÈÌÎÄÅÉÑÒÂÈÅ");
     }
 }
