@@ -244,6 +244,10 @@ PrefabInstance:
       propertyPath: speedRotation
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7747394090820702406, guid: b68ac1ae0bf11484fb7a293e43245a5f, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 7747394090820702407, guid: b68ac1ae0bf11484fb7a293e43245a5f, type: 3}
       propertyPath: m_Height
       value: 2.4962556
