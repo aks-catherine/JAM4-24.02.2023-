@@ -15,25 +15,22 @@ public class GodScript : MonoBehaviour
     AltarScript Altar4;
     
     private int AlCount;
-    private bool Win;
+    private bool win;
 
     //public PostProcessVolume ourVolume;
     
 
     void Start()
     {
-        AlCount = 1;
-        bool Win = false;
-        
+        win = false;
+        AlCount = 1;    
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if (Win == true)
+        if (win == true)
         {
-            
 
         }
     }
@@ -58,9 +55,13 @@ public class GodScript : MonoBehaviour
 
         if (AlCount == 5)
         {
-            Win = true;
+            Win();
             Debug.Log("Победа");
         }
+    }
+    private void Win()
+    {
+        win = true;
     }
 
 }
