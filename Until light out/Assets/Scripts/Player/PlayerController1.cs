@@ -16,6 +16,7 @@ public class PlayerController1 : MonoBehaviour
     private NewControls _input;
     private Collider _Collider;
     private AltarScript _altar;
+    private Rook _rook;
     
     private void Awake()
     {
@@ -64,7 +65,11 @@ public class PlayerController1 : MonoBehaviour
             {
                 _altar = _Collider.GetComponent<AltarScript>();
                 _altar.activate();
-
+            };
+            if (_Collider.gameObject.tag == "Rook")
+            {
+                _rook = _Collider.GetComponent<Rook>();
+                _rook.activateRook();
             };
         };
     }
