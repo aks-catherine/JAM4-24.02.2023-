@@ -645,9 +645,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3415551197818877287}
   - component: {fileID: 4894672963967114457}
-  - component: {fileID: 4283857810570117877}
-  - component: {fileID: 2642219344497807719}
-  - component: {fileID: 8507896008486841419}
   m_Layer: 0
   m_Name: Icosphere
   m_TagString: Untagged
@@ -663,7 +660,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4975100465135137524}
   m_LocalRotation: {x: -0.10980207, y: 0.6985296, z: 0.69852954, w: 0.10980208}
-  m_LocalPosition: {x: 0, y: 0, z: 0.067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 99.99999, y: 99.99999, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -741,51 +738,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00015095319, y: 0.00929407, z: -0.0005438328}
     m_Extent: {x: 0.006036384, y: 0.008150438, z: 0.0075849863}
   m_DirtyAABB: 0
---- !u!114 &4283857810570117877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975100465135137524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00a13dbd3a081404f9d476e3a63e6c8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  jumpForce: 10
-  rg: {fileID: 0}
---- !u!136 &2642219344497807719
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975100465135137524}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.006
-  m_Height: 0.015
-  m_Direction: 2
-  m_Center: {x: 0.00031052128, y: -0.0004712936, z: 0.009294069}
---- !u!54 &8507896008486841419
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975100465135137524}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &5226715927529274649
 GameObject:
   m_ObjectHideFlags: 0
