@@ -2889,6 +2889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Altars
       objectReference: {fileID: 0}
+    - target: {fileID: 8258917633425225524, guid: 395293b8387945a4dbb415fa98de983a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.26
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 395293b8387945a4dbb415fa98de983a, type: 3}
 --- !u!1001 &8274320458104933825
