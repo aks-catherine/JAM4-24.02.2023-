@@ -5,7 +5,11 @@ using UnityEngine;
 public class Rook : MonoBehaviour
 {
     [SerializeField]
-    private int number; 
+    private GodScript godScript;
+    [SerializeField]
+    private int number;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,24 +17,13 @@ public class Rook : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+
     }
     public void activateRook()
-    {      
-        switch (number)
-        {
-            case 1:
-                break;
-            case 2:
-                break;
-            case 3:
-                break;
-            case 4:
-                break;
-        }
-
-        Debug.Log("пиво");
+    {
+        Debug.Log("хуй");
+        godScript.rooktext(number);
     }
 }

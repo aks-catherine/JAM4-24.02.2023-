@@ -51,9 +51,11 @@ public class PlayerController1 : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         _Collider = other;
+        Debug.Log(1);
     }
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log(0);
         _Collider = default;
     }
 
@@ -61,6 +63,7 @@ public class PlayerController1 : MonoBehaviour
     {
         if (_Collider != default)
         {
+            
             if (_Collider.gameObject.tag == "Altar")
             {
                 _altar = _Collider.GetComponent<AltarScript>();
@@ -68,6 +71,7 @@ public class PlayerController1 : MonoBehaviour
             };
             if (_Collider.gameObject.tag == "Rook")
             {
+                Debug.Log("ehfff");
                 _rook = _Collider.GetComponent<Rook>();
                 _rook.activateRook();
             };
