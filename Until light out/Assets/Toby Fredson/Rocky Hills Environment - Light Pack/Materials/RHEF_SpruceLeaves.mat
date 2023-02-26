@@ -64,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ExtraTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0e3cd288a3136794495e2330fcde9683, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -107,7 +107,7 @@ Material:
     m_Floats:
     - BACKFACE_NORMAL_MODE: 1
     - EFFECT_BILLBOARD: 0
-    - EFFECT_EXTRA_TEX: 1
+    - EFFECT_EXTRA_TEX: 0
     - _AlphaClip: 0
     - _AlphaClipThreshold: 0.33
     - _Blend: 0
@@ -121,10 +121,10 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.172
     - _GlossyReflections: 1
     - _HueVariationKwToggle: 0
-    - _Metallic: 0
+    - _Metallic: 0.832
     - _Mode: 1
     - _NormalMapKwToggle: 1
     - _OcclusionStrength: 1
@@ -137,7 +137,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SubsurfaceIndirect: 0.004
+    - _SubsurfaceIndirect: 0
     - _SubsurfaceKwToggle: 0
     - _Surface: 0
     - _UVSec: 0
@@ -147,7 +147,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.38679248, g: 0.37037206, b: 0.37037206, a: 1}
     - _EmissionColor: {r: 0.5421907, g: 0.72794116, b: 0.36397058, a: 1}
     - _HueVariation: {r: 0.42647058, g: 0.42041522, b: 0.20696366, a: 0.1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.2}
