@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3567349587942138315, guid: 1c9cd62ff3583a648bcd801cff94094f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.9
+      value: 33.2
       objectReference: {fileID: 0}
     - target: {fileID: 3567349587942138315, guid: 1c9cd62ff3583a648bcd801cff94094f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -57,11 +57,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8983479398051825351, guid: 1c9cd62ff3583a648bcd801cff94094f, type: 3}
       propertyPath: m_Range
-      value: 40.57
+      value: 44.8
       objectReference: {fileID: 0}
     - target: {fileID: 8983479398051825351, guid: 1c9cd62ff3583a648bcd801cff94094f, type: 3}
       propertyPath: m_Intensity
-      value: 190
+      value: 291.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8983479398051825351, guid: 1c9cd62ff3583a648bcd801cff94094f, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 34.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c9cd62ff3583a648bcd801cff94094f, type: 3}
@@ -74,7 +78,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1618226600446215885, guid: b68ac1ae0bf11484fb7a293e43245a5f, type: 3}
       propertyPath: m_Range
-      value: 2.98
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618226600446215885, guid: b68ac1ae0bf11484fb7a293e43245a5f, type: 3}
+      propertyPath: m_Intensity
+      value: 1.59
       objectReference: {fileID: 0}
     - target: {fileID: 2323539511298571263, guid: b68ac1ae0bf11484fb7a293e43245a5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -119,6 +127,10 @@ PrefabInstance:
     - target: {fileID: 7436164455105337261, guid: b68ac1ae0bf11484fb7a293e43245a5f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747394089520561547, guid: b68ac1ae0bf11484fb7a293e43245a5f, type: 3}
+      propertyPath: near clip plane
+      value: 4.46
       objectReference: {fileID: 0}
     - target: {fileID: 7747394090370623622, guid: b68ac1ae0bf11484fb7a293e43245a5f, type: 3}
       propertyPath: m_Name

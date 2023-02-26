@@ -150,7 +150,7 @@ Material:
     - _Color: {r: 0.38679248, g: 0.37037206, b: 0.37037206, a: 1}
     - _EmissionColor: {r: 0.5421907, g: 0.72794116, b: 0.36397058, a: 1}
     - _HueVariation: {r: 0.42647058, g: 0.42041522, b: 0.20696366, a: 0.1}
-    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.2}
+    - _HueVariationColor: {r: 0.8113208, g: 0.6493118, b: 0.48602706, a: 0.2}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
