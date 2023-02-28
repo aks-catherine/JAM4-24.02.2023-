@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
-using TMPro;
 
 public class GodScript : MonoBehaviour
 {
@@ -14,47 +13,30 @@ public class GodScript : MonoBehaviour
     AltarScript Altar3;
     [SerializeField]
     AltarScript Altar4;
-
-    [SerializeField]
-    private TextMeshProUGUI _text;
-
-
-    [SerializeField]
-    private int _time;
-    private int c;
-
+    
     private int AlCount;
-    private bool win;
+    private bool Win;
 
     //public PostProcessVolume ourVolume;
     
 
     void Start()
     {
-        win = false;
-        AlCount = 1;    
+        AlCount = 1;
+        bool Win = false;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (win == true)
+        
+        if (Win == true)
         {
+            
 
         }
     }
-    private void FixedUpdate()
-    {
-        if (win != true)
-        {
-            c -= 1;
-            if (c == 0)
-            {
-                _text.text = "";
-            }
-        }
-    }
-
     public void altars(int whatNumberOfThisAltar, AltarScript _thisAltarObject)
     {
         if (AlCount == whatNumberOfThisAltar)
@@ -76,34 +58,9 @@ public class GodScript : MonoBehaviour
 
         if (AlCount == 5)
         {
-            Win();
+            Win = true;
             Debug.Log("Победа");
         }
-    }
-
-    public void rooktext(int num)
-    {
-        c = _time;
-        switch (num)
-        {
-            case 1:
-                _text.text = "первым делом иди на северо-восток";
-                break;
-            case 2:
-                _text.text = "первым делом иди на северо-восток";
-                break;
-            case 3:
-                _text.text = "первым делом иди на северо-восток";
-                break;
-            case 4:
-                _text.text = "первым делом иди на северо-восток";
-                break;
-        }
-    }
-
-    private void Win()
-    {
-        win = true;
     }
 
 }
