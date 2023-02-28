@@ -1,24 +1,51 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.UI;
 
 public class cameraEffects : MonoBehaviour
 {
-    PostProcessVolume m_Volume;
-    Vignette m_Vignette;
-
+    public Image image;
+    public float speed;
+    //private Color dark;
+    private bool Black;
+    private float alpha;
 
     void Start()
     {
-        var vignette = ScriptableObject.CreateInstance<Vignette>();
-        vignette.enabled.Override(true);
-        vignette.intensity.Override(1f);
+        Black = false;
+        image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
+        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        alpha += 0.1f + Time.deltaTime * 0.01f;
+
+
+        if (Input.GetKeyDown("space"))
+        {
+            if (Black == true)
+            {
+                image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
+                Black = false;
+            }
+            else
+            {
+                
+
+
+                image.color += new Color(image.color.r, image.color.g, image.color.b, 0.1f);
+                Black = true;
+
+            }
+
+        }
+
     }
+
 }
